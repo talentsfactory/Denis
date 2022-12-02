@@ -175,13 +175,14 @@
                     <p class="send_text">
                         НЕТ
                     </p>
-                    <form>
+                    <form method="post"
+                                action="https://api.achieveme.live/api/FormFeedbacks/86a49fb3-4a08-4adb-9b18-9dfda2433219">
                         <div class="send_form">
                             <div>
-                                <input type="text" class="form1 formstyle" placeholder="Ваше имя">
-                                <input type="email" class="form2 formstyle" placeholder="Ваш e-mail">
+                                <input type="text" name="name" class="form1 formstyle" placeholder="Ваше имя">
+                                <input type="email" name="email" class="form2 formstyle" placeholder="Ваш e-mail">
                             </div>
-                            <textarea cols="30" rows="10" class="form3 formstyle" placeholder="Сообщение"></textarea>
+                            <textarea cols="30" name="message" rows="10" class="form3 formstyle" placeholder="Сообщение"></textarea>
                             <button class="send_button">ОТПРАВИТЬ</button>
                         </div>
                     </form>
